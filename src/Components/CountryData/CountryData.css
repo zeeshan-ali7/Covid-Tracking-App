@@ -1,0 +1,29 @@
+.select-tag {
+    padding: 8px 0px;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    border: 1px solid;
+    color: black;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+@media screen and (max-width:600px) {
+    .select-tag {
+        padding: 0px 0px;
+        font-weight: 100;
+        width: 100px;
+
+    }
+}

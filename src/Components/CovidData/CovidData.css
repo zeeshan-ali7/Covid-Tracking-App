@@ -1,0 +1,68 @@
+.covid-19-box {
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px 2px black;
+    width: 19vw;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.covid-19-box h1 {
+    font-size: 1.5em;
+    margin: 4px;
+    text-decoration: underline;
+    color: red;
+    text-shadow: 1px 1px 3px white;
+    
+}
+.covid-19-box span{
+    text-decoration: none;
+}
+.covid-19-box h3 {
+    margin: 8px;
+    font-size: 20px;
+    color: yellowgreen;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 30px;
+}
+
+.shows-stats-parent {
+    display: flex;
+    column-gap: 10px;
+}
+
+.shows-stats-childs {
+    width: 16vw;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px 3px black;
+}
+
+.shows-stats-childs p {
+    color:red;
+}
+
+@media screen and (max-width:500px) {
+    .covid-19-box h1 {
+        font-size: 0.6em;
+        margin: 0%;
+    }
+}
